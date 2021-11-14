@@ -24,7 +24,7 @@ body {
 
 .card {
     margin: 25px;
-    height: 700px;
+    height: 650px;
     width: 500px;
     border: 3px solid red;
     border-radius: 15px;
@@ -39,22 +39,35 @@ body {
 }
 
 .card-body {
-    padding: 50px;
+    padding: 40px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
 }
-.plan{
-    margin:20px;
+
+.plan {
+    text-align: center;
+    margin: 20px;
 }
+
+.musicicon {
+    display: flex;
+}
+
+p {
+    padding: 20px 50px;
+    /* margin:20px; */
+}
+
 .card-foot {
-    height: 100px;
+    height: 140px;
 }
 
 .btn {
     display: flex;
+    padding: 20px 0px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -69,11 +82,12 @@ p {
 }
 
 button {
+    color: hsl(223, 47%, 23%);
     height: 50px;
     width: 200px;
     margin: 5px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: white;
 }
 
 button:hover {
